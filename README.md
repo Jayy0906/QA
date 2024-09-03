@@ -56,11 +56,11 @@ This repository contains Cypress test automation, covering functional tests, log
 
 3. **Sometimes test may fail because of wait, delay & network speed as per your environment ( Mostly with form validation test because of site's speed ):**
 
-4. **Test Report ( Use a test reporting tool or integrate it within the framework (e.g., Allure, Mocha Reports, or custom HTML reports ) ):**
+4. **Test Report - Use a test reporting tool or integrate it within the framework (e.g., Allure, Mocha Reports, or custom HTML reports ):**
    ```bash
    cd cypress/reports/html/index.html
 
-5. **Screen Recording :**A short screen recording demonstrating the tests in action.:
+5. **Screen Recording - A short screen recording demonstrating the tests in action.:**
    ```bash
    cd cypress/videos
 

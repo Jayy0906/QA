@@ -44,14 +44,27 @@ This repository contains Cypress test automation, covering functional tests, log
    ```bash
    npx cypress run
 
-## 3. Mostly you will need below 2 commands ( Try First )
+## 3. Mostly you will need to do below ( Try First )
 
 1. **Run Or Open Cypress:**
    ```bash
    npx cypress open
 
-2. **Run Tests With Reports:**
+2. **Run Tests With Reports & Screen Recording:**
    ```bash
    npx cypress run
 
-3. **Sometimes test may fail because of wait, delay & network speed as per your environment:**
+3. **Sometimes test may fail because of wait, delay & network speed as per your environment ( Mostly with form validation test because of site's speed ):**
+
+4. **Test Report - Use a test reporting tool or integrate it within the framework (e.g., Allure, Mocha Reports, or custom HTML reports ):**
+   ```bash
+   cd cypress/reports/html/index.html
+
+5. **Screen Recording - A short screen recording demonstrating the tests in action.:**
+   ```bash
+   cd cypress/videos
+
+   or
+
+   ```bash
+   cd cypress/reports/html/videos

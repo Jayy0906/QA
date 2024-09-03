@@ -43,3 +43,13 @@ This repository contains Cypress test automation, covering functional tests, log
 3. **Run Tests With Reports:**
    ```bash
    npx cypress run
+
+## 3. Mostly you will need below 2 commands ( Try First )
+
+1. **Run Or Open Cypress:**
+   ```bash
+   npx cypress open
+
+2. **Run Tests With Reports:**
+   ```bash
+   npx cypress run

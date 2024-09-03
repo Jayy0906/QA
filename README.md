@@ -50,7 +50,7 @@ This repository contains Cypress test automation, covering functional tests, log
    ```bash
    npx cypress open
 
-2. **Run Tests With Reports:**
+2. **Run Tests With Reports & Screen Recording:**
    ```bash
    npx cypress run
 

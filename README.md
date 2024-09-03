@@ -31,13 +31,13 @@ This repository contains Cypress test automation, covering functional tests, log
 2. **Update Cypress Configuration( File: `cypress.config.js` ):**
    ```bash
    const { defineConfig } = require('cypress');
-module.exports = defineConfig({
-  reporter: 'cypress-mochawesome-reporter',
-  e2e: {
-    setupNodeEvents(on, config) {
-      require('cypress-mochawesome-reporter/plugin')(on);
+   module.exports = defineConfig({
+     reporter: 'cypress-mochawesome-reporter',
+     e2e: {
+       setupNodeEvents(on, config) {
+         require('cypress-mochawesome-reporter/plugin')(on);
     },
-},
+  },
 });
 
 3. **Run Tests With Reports:**

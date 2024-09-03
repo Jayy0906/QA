@@ -36,9 +36,9 @@ This repository contains Cypress test automation, covering functional tests, log
      e2e: {
        setupNodeEvents(on, config) {
          require('cypress-mochawesome-reporter/plugin')(on);
-    },
-  },
-});
+        },
+       },
+     });
 
 3. **Run Tests With Reports:**
    ```bash

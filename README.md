@@ -53,3 +53,5 @@ This repository contains Cypress test automation, covering functional tests, log
 2. **Run Tests With Reports:**
    ```bash
    npx cypress run
+
+3. **Sometimes test may fail because of wait, delay & network speed as per your environment:**
